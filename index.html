@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/estilo.css">
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <header>
+            <h1>Formulario de Cadastro de Usuário</h1>
+        </header>
+        <main>
+            <form>
+                <span id="esquerda">
+                    Nome: 
+                    <br>
+                    <input type="text" id="nome">
+                </span>
+                <span id="direita">
+                    Sobrenome: 
+                    <br>
+                    <input type="text" id="sobr">
+                </span>
+                <br>
+                <span id="esquerda">
+                    E-mail: <br>
+                    <input type="text" id="email">
+                </span>
+                <br><br><br><br><br>
+                <div id="esquerda">
+                    Senha: 
+                    <br>
+                    <input type="password" id="senha">
+                </div>
+                <span id="direita">
+                    Confirme a senha: 
+                    <br>
+                    <input type="password" id="conf_senha">
+                </span>
+                <br>
+                <br>
+                <br>
+                <button onclick="add();">Registrar</button>
+                <br>
+                <button onclick="apresentar();">Consultar</button>
+                <br>
+                <textarea id="result" cols="65" rows="6"></textarea>
+                <br><br><br>
+            
+            </form>
+
+        </main>
+        <footer>
+            &copy Aline.Queiroz & GuedesArt todos os direitos reservados.
+        </footer>
+        <script src="java.js"></script>
+    </body>
+</html>
